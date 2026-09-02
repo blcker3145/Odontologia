@@ -259,11 +259,15 @@ button, input, select, textarea { font: inherit; color: inherit; }
   letter-spacing: 0.01em;
   cursor: pointer;
   text-align: center;
+  text-wrap: balance;
   transition: background var(--t-fast), color var(--t-fast),
               border-color var(--t-fast), transform var(--t-fast),
               box-shadow var(--t-fast);
 }
+/* O ícone nunca encolhe nem quebra para uma linha própria: se o rótulo
+   quebrar, os dois continuam alinhados na mesma caixa. */
 .btn svg { flex: none; }
+.btn > svg:last-child { align-self: center; }
 
 .btn--primary {
   background: var(--c-cta);
@@ -1304,8 +1308,25 @@ body.no-scroll { overflow: hidden; }
   .footer__legal { gap: var(--sp-2); }
 }
 
+/* Em telas estreitas (iPhone SE e afins) o padding do botão comia a largura
+   do rótulo e forçava quebra em duas linhas, com a seta solta ao lado. */
 @media (max-width: 420px) {
   .btn-row .btn { width: 100%; }
+  .btn,
+  .btn--lg {
+    padding-inline: 0.9rem;
+    font-size: 0.8rem;
+    gap: 0.4rem;
+  }
+  .btn .icon--sm { width: 16px; height: 16px; }
+}
+
+/* Telas muito estreitas (iPhone SE, 320px): o padding do cartão do formulário
+   estreitava o botão a ponto do rótulo não caber. */
+@media (max-width: 360px) {
+  .form-wrap { padding-inline: 1.1rem; }
+  .block-primary { padding-inline: 1.25rem; }
+  .btn, .btn--lg { font-size: 0.76rem; padding-inline: 0.8rem; }
 }
 
 /* O botão flutuante do WhatsApp cobria texto no topo da página, onde o CTA
