@@ -17,17 +17,17 @@ window.CLINICA = {
   cnpj:        '34.821.596/0001-72',
 
   /* ---- Localização ----------------------------------------------------- */
-  cidade:      'Pinheiros, São Paulo',
-  endereco:    'Rua Fradique Coutinho, 812 — Pinheiros, São Paulo/SP, CEP 05416-011',
-  referencia:  'A 400m da estação Fradique Coutinho (Linha 4-Amarela)',
+  cidade:      'Rio de Janeiro',
+  endereco:    'Rua Inexistente das Tartarugas Voadoras, 9999 — Bairro Fictício, Rio de Janeiro/RJ, CEP 00000-000',
+  referencia:  'Próximo à Praça da Imaginação',
 
   /* ---- Contato --------------------------------------------------------- */
   // Número do WhatsApp em formato internacional, apenas dígitos: 55 + DDD + número
-  whatsappNumero:  '5511982740193',
-  whatsappDisplay: '(11) 98274-0193',
+  whatsappNumero:  '5521992268562',
+  whatsappDisplay: '(21) 99226-8562',
   whatsappMensagem: 'Olá, vim pela página da CA Odontologia e gostaria de agendar uma avaliação.',
 
-  telefone:  '(11) 3062-4180',
+  telefone:  '(21) 99226-8562',
   email:     'contato@caodontologia.com.br',
 
   /* ---- Horários -------------------------------------------------------- */
