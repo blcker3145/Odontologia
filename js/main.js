@@ -46,6 +46,13 @@
   var ano = $('#anoAtual');
   if (ano) { ano.textContent = new Date().getFullYear(); }
 
+  // Botão de rota: monta a busca do Google Maps a partir do endereço do config
+  var rota = $('#rotaMaps');
+  if (rota && cfg.endereco) {
+    rota.setAttribute('href',
+      'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(cfg.endereco));
+  }
+
   /* ------------------------------------------------------------------------
      2. Placeholder visual para imagens ainda não adicionadas em /assets
      ------------------------------------------------------------------------ */
@@ -234,6 +241,19 @@
         mostraSucesso();
       }
     });
+  }
+
+  /* ------------------------------------------------------------------------
+     7b. WhatsApp flutuante: só aparece depois do hero, para não cobrir texto
+     ------------------------------------------------------------------------ */
+  var waFloat = $('.wa-float');
+  var heroEl  = $('.hero');
+  if (waFloat && heroEl && 'IntersectionObserver' in window) {
+    new IntersectionObserver(function (entradas) {
+      waFloat.classList.toggle('is-visible', !entradas[0].isIntersecting);
+    }, { threshold: 0 }).observe(heroEl);
+  } else if (waFloat) {
+    waFloat.classList.add('is-visible');
   }
 
   /* ------------------------------------------------------------------------

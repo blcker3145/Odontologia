@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="CA Odontologia">
+  <circle cx="100" cy="100" r="100" fill="#F7F5F0"/>
+  <circle cx="100" cy="100" r="92" fill="none" stroke="#66A9B0" stroke-width="1.5" opacity=".5"/>
+  <text x="100" y="104" text-anchor="middle" dominant-baseline="middle"
+        font-family="Georgia, 'Times New Roman', serif" font-size="76" fill="#4F9299"
+        letter-spacing="2">CA</text>
+  <text x="100" y="147" text-anchor="middle"
+        font-family="Poppins, Helvetica, Arial, sans-serif" font-size="13" fill="#687477"
+        letter-spacing="6">ODONTOLOGIA</text>
+  <circle cx="100" cy="163" r="2" fill="#66A9B0"/>
+</svg>

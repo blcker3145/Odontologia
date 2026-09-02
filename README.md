@@ -4,6 +4,13 @@ Landing page de conversão para clínica odontológica, construída a partir da
 *Estrutura de Autoconversão para Landing Page de Odontologia* e do design system
 turquesa da marca.
 
+> ### ⚠️ Template de demonstração
+> Clínica, endereço, telefone, CNPJ, CRO e depoimentos são **fictícios**, criados
+> para apresentar o template em prospecção. Ao aplicar para um cliente real,
+> substitua tudo em `js/config.js` por dados verdadeiros — em especial os
+> depoimentos, que precisam ser reais e autorizados (normas CFO/CRO) — e remova
+> a tag `noindex` do `index.html` e o `robots.txt`.
+
 HTML, CSS e JavaScript puros — sem build, sem dependências. Abra o `index.html`
 e o site funciona.
 

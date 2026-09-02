@@ -1,52 +1,54 @@
 /* ==========================================================================
    CA ODONTOLOGIA — Configuração da clínica
    --------------------------------------------------------------------------
-   Este é o ÚNICO arquivo que você precisa editar para colocar os dados reais
-   da clínica no ar. Tudo que estiver entre [colchetes] é placeholder e deve
-   ser substituído por informação verdadeira e verificável.
+   ⚠️  TEMPLATE DE DEMONSTRAÇÃO
+   Todos os dados abaixo são FICTÍCIOS, criados para apresentar o template.
+   Clínica, endereço, telefone, CNPJ, CRO e depoimentos não existem.
+   Ao aplicar para um cliente real, substitua tudo por dados verdadeiros e
+   verificáveis — em especial os depoimentos, que precisam ser reais e
+   autorizados (normas CFO/CRO).
    ========================================================================== */
 
 window.CLINICA = {
 
   /* ---- Identidade ------------------------------------------------------ */
   nome:        'CA Odontologia',
-  razaoSocial: '[Razão social da clínica LTDA]',
-  cnpj:        '[00.000.000/0001-00]',
+  razaoSocial: 'CA Odontologia Clínica Odontológica Ltda',
+  cnpj:        '34.821.596/0001-72',
 
   /* ---- Localização ----------------------------------------------------- */
-  cidade:      '[Cidade/bairro]',
-  endereco:    '[Rua Exemplo, 000 — Bairro, Cidade/UF, CEP 00000-000]',
-  referencia:  '[Ao lado de algum ponto de referência conhecido]',
+  cidade:      'Pinheiros, São Paulo',
+  endereco:    'Rua Fradique Coutinho, 812 — Pinheiros, São Paulo/SP, CEP 05416-011',
+  referencia:  'A 400m da estação Fradique Coutinho (Linha 4-Amarela)',
 
   /* ---- Contato --------------------------------------------------------- */
   // Número do WhatsApp em formato internacional, apenas dígitos: 55 + DDD + número
-  whatsappNumero:  '5500000000000',
-  whatsappDisplay: '[(00) 00000-0000]',
-  // Mensagem que já vem preenchida quando o paciente abre o WhatsApp
+  whatsappNumero:  '5511982740193',
+  whatsappDisplay: '(11) 98274-0193',
   whatsappMensagem: 'Olá, vim pela página da CA Odontologia e gostaria de agendar uma avaliação.',
 
-  telefone:  '[(00) 0000-0000]',
-  email:     '[contato@caodontologia.com.br]',
+  telefone:  '(11) 3062-4180',
+  email:     'contato@caodontologia.com.br',
 
   /* ---- Horários -------------------------------------------------------- */
-  horarioResumo:  'Seg a Sex',
-  horarioSemana:  '[Segunda a sexta, das 00h às 00h]',
-  horarioSabado:  '[Sábado, das 00h às 00h]',
+  horarioResumo:  'Seg a Sáb',
+  horarioSemana:  'Segunda a sexta, das 8h às 19h',
+  horarioSabado:  'Sábado, das 8h às 13h',
 
   /* ---- Responsabilidade técnica (obrigatório — CFO/CRO) ---------------- */
-  responsavelTecnico: '[Nome do profissional responsável]',
-  cro:                '[UF 00000]',
+  responsavelTecnico: 'Dra. Carolina Andrade',
+  cro:                'SP 42.318',
 
   /* ---- Informações usadas no FAQ --------------------------------------- */
-  publico:   '[crianças, adolescentes e adultos]',
-  convenios: '[informação verdadeira sobre convênios]',
+  publico:   'crianças a partir de 2 anos, adolescentes e adultos',
+  convenios: 'Amil Dental, Bradesco Dental e SulAmérica Odonto, além de atendimento particular',
 
   /* ---- Redes sociais --------------------------------------------------- */
-  instagram: 'https://instagram.com/',
-  facebook:  'https://facebook.com/',
+  instagram: 'https://instagram.com/caodontologia',
+  facebook:  'https://facebook.com/caodontologia',
 
   /* ---- Páginas institucionais ------------------------------------------ */
-  dataAtualizacao: '[00/00/0000]',
+  dataAtualizacao: '02/09/2026',
 
   /* ---- Comportamento do formulário ------------------------------------- */
   // 'whatsapp'  → ao enviar, monta a mensagem e abre a conversa no WhatsApp

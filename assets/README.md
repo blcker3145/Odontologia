@@ -8,40 +8,30 @@ turquesa no lugar — nada quebra.
 
 ## `assets/img/` — fotografias clínicas
 
-| Arquivo | Onde aparece | Proporção | Tamanho sugerido | Status |
+| Arquivo | Onde aparece | Proporção | Tamanho | Status |
 |---|---|---|---|---|
-| `hero-atendimento.jpg` | Primeira tela (hero) | 5:6 vertical | 900 × 1080 px | ✅ adicionada |
-| `paciente-acolhimento.jpg` | Seção "Talvez você esteja adiando…" | 4:5 vertical | 800 × 1000 px | ✅ adicionada |
-| `consultorio.jpg` | Seção de tratamentos | 16:11 horizontal | 900 × 620 px | ✅ adicionada |
-| `equipe.jpg` | Ao lado do formulário | 16:11 horizontal | 900 × 620 px | ✅ adicionada |
-| `fachada.jpg` | Seção de contato | 16:11 horizontal | 900 × 620 px | ⏳ pendente |
-| `depoimento-1.jpg` | Avatar do depoimento 1 | 1:1 quadrada | 200 × 200 px | ⏳ pendente |
-| `depoimento-2.jpg` | Avatar do depoimento 2 | 1:1 quadrada | 200 × 200 px | ⏳ pendente |
-| `depoimento-3.jpg` | Avatar do depoimento 3 | 1:1 quadrada | 200 × 200 px | ⏳ pendente |
-| `og-imagem.jpg` | Prévia ao compartilhar link | 1.91:1 | 1200 × 630 px | ✅ adicionada |
+| `hero-atendimento.jpg` | Primeira tela (hero) | 5:6 vertical | 900 × 1080 px | ✅ |
+| `paciente-acolhimento.jpg` | Seção "Talvez você esteja adiando…" | 4:5 vertical | 800 × 1000 px | ✅ |
+| `consultorio.jpg` | Seção de tratamentos | 16:11 horizontal | 900 × 620 px | ✅ |
+| `equipe.jpg` | Ao lado do formulário | 16:11 horizontal | 900 × 620 px | ✅ |
+| `fachada.jpg` | Seção de contato | 16:11 horizontal | 900 × 620 px | ✅ |
+| `og-imagem.jpg` | Prévia ao compartilhar link | 1.91:1 | 1200 × 630 px | ✅ |
 
-As 5 fotos marcadas ✅ são fotos de banco de imagens (Pexels, licença livre para
-uso comercial) usadas como ambientação temporária. Assim que a clínica tiver
-fotos reais e autorizadas do próprio espaço e equipe, substitua-as pelo mesmo
-nome de arquivo — é a recomendação do próprio briefing (ver abaixo).
+Todas são fotos do Pexels (licença livre para uso comercial), usadas como
+ambientação do template de demonstração. Ao aplicar para um cliente real,
+substitua pelas fotos da clínica mantendo os mesmos nomes de arquivo.
 
-**`fachada.jpg` ficou pendente de propósito:** a foto enviada para essa vaga
-mostrava, em segundo plano, a logo e o nome de outra clínica real ("Pulpatta
-Medical Centre") na parede — usá-la passaria a impressão errada de que aquele
-é o espaço da CA Odontologia. Envie uma foto da fachada/recepção real da
-clínica, ou uma nova foto de banco sem identificação de terceiros.
-
-**Os avatares de depoimento (`depoimento-1/2/3.jpg`) foram deixados de fora
-de propósito:** colocar um rosto de banco de imagens ali criaria a aparência
-de um paciente real dando um depoimento que não existe — o que as normas
-éticas de publicidade odontológica (CFO/CRO) proíbem. Substitua apenas por
-fotos de pacientes reais que autorizaram o uso.
+**Depoimentos não usam foto.** Os avatares são as iniciais do paciente, em
+turquesa. Foi decisão de projeto: rosto de banco de imagens ao lado de um
+depoimento sugere um paciente real que não existe, o que as normas de
+publicidade odontológica (CFO/CRO) não permitem. Ao aplicar para um cliente,
+use foto real só com autorização por escrito.
 
 ## `assets/logo/` — marca
 
 | Arquivo | Onde aparece | Formato |
 |---|---|---|
-| `logo-ca-odontologia.png` | Header, menu mobile e rodapé | PNG com fundo transparente, 200 × 200 px |
+| `logo-ca-odontologia.svg` | Header, menu mobile e rodapé | SVG (monograma provisório — substitua pela logo do cliente) |
 | `favicon.svg` | Aba do navegador | SVG (já incluído — substitua se quiser) |
 | `apple-touch-icon.png` | Ícone no iOS | PNG 180 × 180 px |
 
