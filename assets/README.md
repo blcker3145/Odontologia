@@ -8,17 +8,34 @@ turquesa no lugar — nada quebra.
 
 ## `assets/img/` — fotografias clínicas
 
-| Arquivo | Onde aparece | Proporção | Tamanho sugerido |
-|---|---|---|---|
-| `hero-atendimento.jpg` | Primeira tela (hero) | 5:6 vertical | 900 × 1080 px |
-| `paciente-acolhimento.jpg` | Seção "Talvez você esteja adiando…" | 4:5 vertical | 800 × 1000 px |
-| `consultorio.jpg` | Seção de tratamentos | 16:11 horizontal | 900 × 620 px |
-| `equipe.jpg` | Ao lado do formulário | 16:11 horizontal | 900 × 620 px |
-| `fachada.jpg` | Seção de contato | 16:11 horizontal | 900 × 620 px |
-| `depoimento-1.jpg` | Avatar do depoimento 1 | 1:1 quadrada | 200 × 200 px |
-| `depoimento-2.jpg` | Avatar do depoimento 2 | 1:1 quadrada | 200 × 200 px |
-| `depoimento-3.jpg` | Avatar do depoimento 3 | 1:1 quadrada | 200 × 200 px |
-| `og-imagem.jpg` | Prévia ao compartilhar link | 1.91:1 | 1200 × 630 px |
+| Arquivo | Onde aparece | Proporção | Tamanho sugerido | Status |
+|---|---|---|---|---|
+| `hero-atendimento.jpg` | Primeira tela (hero) | 5:6 vertical | 900 × 1080 px | ✅ adicionada |
+| `paciente-acolhimento.jpg` | Seção "Talvez você esteja adiando…" | 4:5 vertical | 800 × 1000 px | ✅ adicionada |
+| `consultorio.jpg` | Seção de tratamentos | 16:11 horizontal | 900 × 620 px | ✅ adicionada |
+| `equipe.jpg` | Ao lado do formulário | 16:11 horizontal | 900 × 620 px | ✅ adicionada |
+| `fachada.jpg` | Seção de contato | 16:11 horizontal | 900 × 620 px | ⏳ pendente |
+| `depoimento-1.jpg` | Avatar do depoimento 1 | 1:1 quadrada | 200 × 200 px | ⏳ pendente |
+| `depoimento-2.jpg` | Avatar do depoimento 2 | 1:1 quadrada | 200 × 200 px | ⏳ pendente |
+| `depoimento-3.jpg` | Avatar do depoimento 3 | 1:1 quadrada | 200 × 200 px | ⏳ pendente |
+| `og-imagem.jpg` | Prévia ao compartilhar link | 1.91:1 | 1200 × 630 px | ✅ adicionada |
+
+As 5 fotos marcadas ✅ são fotos de banco de imagens (Pexels, licença livre para
+uso comercial) usadas como ambientação temporária. Assim que a clínica tiver
+fotos reais e autorizadas do próprio espaço e equipe, substitua-as pelo mesmo
+nome de arquivo — é a recomendação do próprio briefing (ver abaixo).
+
+**`fachada.jpg` ficou pendente de propósito:** a foto enviada para essa vaga
+mostrava, em segundo plano, a logo e o nome de outra clínica real ("Pulpatta
+Medical Centre") na parede — usá-la passaria a impressão errada de que aquele
+é o espaço da CA Odontologia. Envie uma foto da fachada/recepção real da
+clínica, ou uma nova foto de banco sem identificação de terceiros.
+
+**Os avatares de depoimento (`depoimento-1/2/3.jpg`) foram deixados de fora
+de propósito:** colocar um rosto de banco de imagens ali criaria a aparência
+de um paciente real dando um depoimento que não existe — o que as normas
+éticas de publicidade odontológica (CFO/CRO) proíbem. Substitua apenas por
+fotos de pacientes reais que autorizaram o uso.
 
 ## `assets/logo/` — marca
 
