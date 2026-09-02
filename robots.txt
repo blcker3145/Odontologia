@@ -1,0 +1,5 @@
+# Site ainda em preparação: CRO, endereço, telefone e depoimentos são
+# placeholders (ver js/config.js). Remova este bloqueio quando os dados
+# reais estiverem preenchidos e a página estiver pronta para ser indexada.
+User-agent: *
+Disallow: /
